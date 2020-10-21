@@ -1,0 +1,191 @@
+﻿Kompilacja rozpoczęła się 23.03.2019 21:29:27.
+     1>Projekt „C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\SitoCUDA.vcxproj” w węźle 2 (elementy docelowe: Rebuild).
+     1>_PrepareForClean:
+         Usuwanie pliku „x64\Debug\SitoCUDA.tlog\SitoCUDA.lastbuildstate”.
+       CudaClean:
+         cmd.exe /C "C:\Users\Maciek\AppData\Local\Temp\tmpbd7c75d651c4428988463c2f4ac5bde7.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\kernel.cu" -clean
+         
+         C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile   -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od  /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\kernel.cu" -clean 
+         kernel.cu
+         Usuwanie pliku „x64\Debug\kernel.cu-2023727596.deps”.
+       InitializeBuildStatus:
+         Trwa tworzenie „x64\Debug\SitoCUDA.tlog\unsuccessfulbuild”, ponieważ określono "AlwaysCreate".
+       AddCudaCompileDeps:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /DWIN64 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" /I. /FIcuda_runtime.h /c C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\kernel.cu 
+     1>Projekt „C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\SitoCUDA.vcxproj” (1) kompiluje „C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\SitoCUDA.vcxproj” (1:2) w węźle 2 (elementy docelowe: CudaBuildCore).
+     1>CudaBuildCore:
+         Compiling CUDA source file kernel.cu...
+         cmd.exe /C "C:\Users\Maciek\AppData\Local\Temp\tmp7634662d7b4947518365e71666ee5c90.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -gencode=arch=compute_61,code=\"sm_61,compute_61\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\kernel.cu"
+         
+         C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin\nvcc.exe" -gencode=arch=compute_61,code=\"sm_61,compute_61\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64" -x cu  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc141.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\kernel.cu" 
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(93): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(252): warning : duplicate specifier in declaration
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(252): warning : duplicate specifier in declaration
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(375): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(377): warning : variable "currentadress" was declared but never referenced
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(378): warning : variable "endadress" was declared but never referenced
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(426): warning : duplicate specifier in declaration
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(426): warning : duplicate specifier in declaration
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(503): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(505): warning : variable "currentadress" was declared but never referenced
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(506): warning : variable "endadress" was declared but never referenced
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(556): warning : duplicate specifier in declaration
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(677): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(815): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(815): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(93): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(252): warning : duplicate specifier in declaration
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(252): warning : duplicate specifier in declaration
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(375): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(426): warning : duplicate specifier in declaration
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(426): warning : duplicate specifier in declaration
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(503): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(556): warning : duplicate specifier in declaration
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(677): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(815): warning : integer conversion resulted in a change of sign
+         
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(815): warning : integer conversion resulted in a change of sign
+         
+         kernel.cu
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(93): warning C4309: "=": obcięcie stałej wartości
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(119): warning C4244: "return": konwersja z "unsigned __int64" do "unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(122): warning C4244: "return": konwersja z "unsigned __int64" do "unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(134): warning C4244: "inicjowanie": konwersja z "double" do "unsigned __int64", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(197): warning C4244: "inicjowanie": konwersja z "unsigned __int64" do "unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(197): warning C4244: "inicjowanie": konwersja z "unsigned __int64" do "const unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(208): warning C4244: "inicjowanie": konwersja z "double" do "unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(266): warning C4244: "inicjowanie": konwersja z "double" do "unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(266): warning C4244: "inicjowanie": konwersja z "double" do "const unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(345): warning C4244: "argument": konwersja z "const unsigned __int64" do "const unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(345): warning C4244: "argument": konwersja z "unsigned __int64" do "const unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(353): warning C4244: "argument": konwersja z "const unsigned __int64" do "const unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(353): warning C4244: "argument": konwersja z "unsigned __int64" do "const unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(404): warning C4244: "argument": konwersja z "unsigned __int64" do "const _Ty", możliwa utrata danych
+                 with
+                 [
+                     _Ty=unsigned int
+                 ]
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(416): warning C4244: "argument": konwersja z "unsigned __int64" do "const _Ty", możliwa utrata danych
+                 with
+                 [
+                     _Ty=unsigned int
+                 ]
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(429): warning C4244: "inicjowanie": konwersja z "double" do "unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(429): warning C4244: "inicjowanie": konwersja z "double" do "const unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(490): warning C4244: "argument": konwersja z "const unsigned __int64" do "const unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(490): warning C4244: "argument": konwersja z "unsigned __int64" do "const unsigned int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(534): warning C4244: "argument": konwersja z "unsigned __int64" do "const _Ty", możliwa utrata danych
+                 with
+                 [
+                     _Ty=unsigned int
+                 ]
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(546): warning C4244: "argument": konwersja z "unsigned __int64" do "const _Ty", możliwa utrata danych
+                 with
+                 [
+                     _Ty=unsigned int
+                 ]
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(597): warning C4244: "inicjowanie": konwersja z "unsigned __int64" do "int", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(622): warning C4244: "argument": konwersja z "unsigned __int64" do "_Ty", możliwa utrata danych
+                 with
+                 [
+                     _Ty=unsigned int
+                 ]
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(694): warning C4244: "=": konwersja z "double" do "unsigned __int64", możliwa utrata danych
+     1>C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(699): warning C4244: "=": konwersja z "double" do "unsigned __int64", możliwa utrata danych
+     1>Kompilowanie projektu „C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\SitoCUDA.vcxproj” wykonane (elementy docelowe: CudaBuildCore).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Maciek\source\repos\SitoCUDA\x64\Debug\SitoCUDA.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\lib\x64" cudart_static.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"C:\Users\Maciek\source\repos\SitoCUDA\x64\Debug\SitoCUDA.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Maciek\source\repos\SitoCUDA\x64\Debug\SitoCUDA.lib" /MACHINE:X64 x64\Debug\kernel.cu.obj
+            Trwa tworzenie biblioteki C:\Users\Maciek\source\repos\SitoCUDA\x64\Debug\SitoCUDA.lib i obiektu C:\Users\Maciek\source\repos\SitoCUDA\x64\Debug\SitoCUDA.exp
+         SitoCUDA.vcxproj -> C:\Users\Maciek\source\repos\SitoCUDA\x64\Debug\SitoCUDA.exe
+       FinalizeBuildStatus:
+         Usuwanie pliku „x64\Debug\SitoCUDA.tlog\unsuccessfulbuild”.
+         Modyfikowanie „x64\Debug\SitoCUDA.tlog\SitoCUDA.lastbuildstate”.
+     1>Kompilowanie projektu „C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\SitoCUDA.vcxproj” wykonane (elementy docelowe: Rebuild).
+
+Kompilacja powiodła się.
+
+       „C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\SitoCUDA.vcxproj” (element docelowy Rebuild) (1) ->
+       „C:\Users\Maciek\source\repos\SitoCUDA\SitoCUDA\SitoCUDA.vcxproj” (element docelowy CudaBuildCore) (1:2) ->
+       (element docelowy CudaBuildCore) -> 
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(93): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(252): warning : duplicate specifier in declaration
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(252): warning : duplicate specifier in declaration
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(375): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(377): warning : variable "currentadress" was declared but never referenced
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(378): warning : variable "endadress" was declared but never referenced
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(426): warning : duplicate specifier in declaration
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(426): warning : duplicate specifier in declaration
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(503): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(505): warning : variable "currentadress" was declared but never referenced
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(506): warning : variable "endadress" was declared but never referenced
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(556): warning : duplicate specifier in declaration
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(677): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(815): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(815): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(93): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(252): warning : duplicate specifier in declaration
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(252): warning : duplicate specifier in declaration
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(375): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(426): warning : duplicate specifier in declaration
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(426): warning : duplicate specifier in declaration
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(503): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(556): warning : duplicate specifier in declaration
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(677): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(815): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(815): warning : integer conversion resulted in a change of sign
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(93): warning C4309: "=": obcięcie stałej wartości
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(119): warning C4244: "return": konwersja z "unsigned __int64" do "unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(122): warning C4244: "return": konwersja z "unsigned __int64" do "unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(134): warning C4244: "inicjowanie": konwersja z "double" do "unsigned __int64", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(197): warning C4244: "inicjowanie": konwersja z "unsigned __int64" do "unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(197): warning C4244: "inicjowanie": konwersja z "unsigned __int64" do "const unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(208): warning C4244: "inicjowanie": konwersja z "double" do "unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(266): warning C4244: "inicjowanie": konwersja z "double" do "unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(266): warning C4244: "inicjowanie": konwersja z "double" do "const unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(345): warning C4244: "argument": konwersja z "const unsigned __int64" do "const unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(345): warning C4244: "argument": konwersja z "unsigned __int64" do "const unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(353): warning C4244: "argument": konwersja z "const unsigned __int64" do "const unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(353): warning C4244: "argument": konwersja z "unsigned __int64" do "const unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(404): warning C4244: "argument": konwersja z "unsigned __int64" do "const _Ty", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(416): warning C4244: "argument": konwersja z "unsigned __int64" do "const _Ty", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(429): warning C4244: "inicjowanie": konwersja z "double" do "unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(429): warning C4244: "inicjowanie": konwersja z "double" do "const unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(490): warning C4244: "argument": konwersja z "const unsigned __int64" do "const unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(490): warning C4244: "argument": konwersja z "unsigned __int64" do "const unsigned int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(534): warning C4244: "argument": konwersja z "unsigned __int64" do "const _Ty", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(546): warning C4244: "argument": konwersja z "unsigned __int64" do "const _Ty", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(597): warning C4244: "inicjowanie": konwersja z "unsigned __int64" do "int", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(622): warning C4244: "argument": konwersja z "unsigned __int64" do "_Ty", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(694): warning C4244: "=": konwersja z "double" do "unsigned __int64", możliwa utrata danych
+         C:/Users/Maciek/source/repos/SitoCUDA/SitoCUDA/kernel.cu(699): warning C4244: "=": konwersja z "double" do "unsigned __int64", możliwa utrata danych
+
+    Ostrzeżenia: 51
+    Liczba błędów: 0
+
+Czas, który upłynął: 00:00:04.30
